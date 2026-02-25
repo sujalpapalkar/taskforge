@@ -1,6 +1,6 @@
 # TaskForge 🚀
 
-A full-stack project management system built with the MERN stack. Think Mini Jira — with Kanban boards, role-based access control, real-time analytics, and a beautiful dark/light UI.
+A full-stack project management system built with the MERN stack — featuring Kanban boards, role-based access control, real-time analytics, and a beautiful dark/light UI.
 
 ![TaskForge](https://img.shields.io/badge/Stack-MERN-6366f1?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-10b981?style=for-the-badge)
