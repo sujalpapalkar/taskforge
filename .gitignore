@@ -1,28 +1,27 @@
 cat > .gitignore << 'EOF'
 # Dependencies
 node_modules/
+client/node_modules/
+server/node_modules/
 
-# Environment variables
+# Environment files
 .env
-.env.local
-.env.production
+client/.env
+server/.env
 
-# Build outputs
-dist/
-build/
-
-# OS files
-.DS_Store
-Thumbs.db
+# Build output
+client/dist/
+client/build/
 
 # Logs
 *.log
 npm-debug.log*
 
-# Editor
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
 .vscode/
 .idea/
-
-# Coverage
-coverage/
 EOF
